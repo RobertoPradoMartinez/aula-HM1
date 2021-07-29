@@ -2,7 +2,22 @@ bookdown::gitbook:
   css: style.css
   config:
     toc:
-      before: |
-        <li><a href="./">Aula de Historia I</a></li>
-      after: |
+        before: |
+        <li><a href="./">Aproximación á historia da música I</a></li>
+        after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+    edit: https://github.com/robertopradomartinez/aula-HM1/edit/master/%s
+    sharing:
+        github: yes
+        facebook: no
+        twitter: no
+    download: "pdf"
+#   download: ["pdf", "epub"]
+
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: yes
+#   bookdown::epub_book: default

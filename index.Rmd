@@ -1,9 +1,9 @@
 --- 
-title: "Aula de Historia da Música"
+title: "Aproximación á historia da música I"
 author: "AAVV"
-date: "`r Sys.Date()`"
+date: "Última actualización `r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
 
-# Comezando unha nova web aberta
+-- ESTA PÁXINA ESTARÁ DISPOÑIBLE EN BREVE --
 

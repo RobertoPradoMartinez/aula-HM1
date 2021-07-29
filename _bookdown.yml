@@ -1,8 +1,24 @@
-book_filename: "bookdownproj"
+book_filename: "apuntes-HM1"
+repo: https://github.com/robertopradomartinez/apuntes-HM1
 output_dir: docs
-delete_merged_file: true
+new_session: no
 edit: https://github.com/robertopradomartinez/aula-HM1/edit/master/%s
 view: https://github.com/robertopradomartinez/aula-HM1/blob/master/%s
 language:
+  label:
+  fig: 'Figura '
+  tab: 'Tabla '
+  eq: 'Ecuación '
+  thm: 'Teorema '
+  lem: 'Lema '
+  def: 'Definición '
+  cor: 'Corolario '
+  prp: 'Proposición '
+  exm: 'Ejemplo '
+  exr: 'Ejercicio '
+  proof: 'Demostración. '
+  remark: 'Nota: '
+  solution: 'Solución. '
   ui:
-    chapter_name: "Chapter "
+    chapter_name: 'Capítulo '
+delete_merged_file: true
